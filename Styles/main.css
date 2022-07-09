@@ -111,18 +111,33 @@ section h2 {
 #animated-posters {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  justify-content: center;
 }
 
 .poster {
+  background-color: red;
+  border-width: 50px;
+  border-color: white;
+}
+
+.poster-media img {
   width: 100%;
 }
 
+#sam {
+  width: 50%;
+}
 
-@media  screen and (max-width: 700px) {
+
+@media  screen and (max-width: 900px) {
   #hero {
     flex-direction: column-reverse;
     min-width: 300px;
+  }
+
+  #hero-text {
+    background-color: red;
+    width: 300px;
   }
 
   #projects-grid {
