@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+
 :root {
 --ivory: #f6f7ebff;
 --cinnabar: #e94f37ff;
 --onyx: #393e41ff;
 --green-blue-crayola: #3f88c5ff;
 --keppel: #44bba4ff;
+
+/* Fonts */
+
 }
 
 body {
   background-color: var(--ivory);
-  font-family: 'Manrope';
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+body h1{
+  font-family: Poppins;
+  font-weight: 700;
 }
 
 nav {
@@ -19,12 +40,14 @@ nav {
 }
 
 nav li{
+  font-weight: 600;
   padding: 5px;
   height: 100%;
 }
 
-nav li:hover {
+.nav-link:hover {
   background-color: var(--cinnabar);
+  color: var(--ivory);
 }
 
 section h2 {
