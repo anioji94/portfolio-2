@@ -12,6 +12,6 @@
   "dependencies": {
     "firebase": "^9.8.0",
     "nodemon": "^2.0.16",
-    "serve": "^13.0.2"
+    "serve": "^14.1.1"
   }
 }
